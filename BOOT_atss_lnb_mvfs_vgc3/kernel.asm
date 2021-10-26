@@ -14,7 +14,7 @@ data:
     hd      db 'Camila puxa uma faca da bolsa e ameaça lhe matar. 1 - Defender \n 2 - Atacar', 0
     hde     db 'Voce desvia do ataque, Camila tropeça e se fere com a propria faca. 1 - Ajudar \n 2 - Ir embora', 0
     hdee    db 'Camila sofre de uma hemorragia e sangra ate a morte, Voce ouve a noticia na televisao no dia seguinte e se sente culpado, entra numa depressao profunda, e dias depois se entrega a policia, que te prende por omissao de socorro. Press 1.', 0
-    hded    db 'Voce, formado em grey's anatomy, ajuda Camila, Voces percebem um amor em comum em medicina e passam a estudar para o vestibular em conjunto.', 0
+    hded    db 'Voce, formado em greys anatomy, ajuda Camila, Voces percebem um amor em comum em medicina e passam a estudar para o vestibular em conjunto.', 0
     hdd     db 'Voce da uma cabecada em Camila, a empurrando em direcao a uma janela que se quebra. Voces caem juntos(as) e Camila se fere. 1 - Ajudar Camila \n 2 - Pedir ajuda', 0
     hddd    db 'A ajuda chega, voces sao levados(as) para a enfermaria e enquanto sao tratados(as) conversam sobre a vida, o universo e tudo mais. No final, voces percebem que se gostam e que isso eh maior do que suas diferencas. Esse relacionamento se desenvolve e ambos comecam a compartilhar uma nova vida juntos(as).', 0
 	
@@ -23,8 +23,5 @@ start:
     mov ds, ax
     mov es, ax
     
-    ;Código do projeto...
-
-   
 
 jmp $
